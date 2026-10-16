@@ -1,0 +1,20 @@
+# Secrets and local environment configuration
+.env
+.env.*
+!.env.example
+
+# Local SQLite databases and generated application data
+instance/
+*.db
+*.sqlite
+*.sqlite3
+
+# Python, tests, virtual environments, and editor files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.pytest-tmp/
+venv/
+.venv/
+.vscode/
+.idea/
